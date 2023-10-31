@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "751602325062",
+    "project_id": "politicalpreparedness-10107",
+    "storage_bucket": "politicalpreparedness-10107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751602325062:android:b94c089db14083134b1c47",
+        "android_client_info": {
+          "package_name": "com.example.android.politicalpreparedness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751602325062-g2n36fls8i9vrtmto520ltrbtemqp8sd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.politicalpreparedness",
+            "certificate_hash": "2c56a623201460ac657e06ee5a0a9a81dc658eb5"
+          }
+        },
+        {
+          "client_id": "751602325062-veg739eb3ed7tmg2l9hq0vvdvqup9b46.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnwbqlaryHzpDLbkeOapRBBTC0ntk8ChM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751602325062-veg739eb3ed7tmg2l9hq0vvdvqup9b46.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
