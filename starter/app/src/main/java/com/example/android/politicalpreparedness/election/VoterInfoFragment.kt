@@ -12,12 +12,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.navArgs
 import com.example.android.politicalpreparedness.R
-import com.example.android.politicalpreparedness.databinding.FragmentVoterInfoBinding
+import com.example.android.politicalpreparedness.databinding.FragmentVoteBinding
 
 class VoterInfoFragment : Fragment() {
 
     private lateinit var viewModel: VoterInfoViewModel
-    private lateinit var binding: FragmentVoterInfoBinding
+    private lateinit var binding: FragmentVoteBinding
     private val args: VoterInfoFragmentArgs by navArgs()
 
     override fun onCreateView(
@@ -27,7 +27,7 @@ class VoterInfoFragment : Fragment() {
     : View? {
         binding = DataBindingUtil.inflate(
             inflater,
-            R.layout.fragment_voter_info,
+            R.layout.fragment_vote,
             container,
             false
         )
